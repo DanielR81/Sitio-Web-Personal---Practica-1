@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    
+    --color-primario: #000000;
+    --color-secundario: #3B1C32;
+    --color-letra: #FFFFFF;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 46px;
+    font-family: var(--fuente-montserrat);
+    font-weight: 500;
+}
+
+h2{
+    font-size: 30px;
+    font-family: var(--fuente-montserrat);
+    font-weight: 600;
+}
+
+p{
+
+    font-size: 20px;
+    font-family: var(--fuente-montserrat);
+    font-weight: 100;
+    line-height: 1.8;
+
+}
+
+.header__menu{
+
+    background-color: var(--color-primario);
+    width: auto;
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    padding: 47px 0 31.5px 140px;
+   
+}
+   
+ .header__menu__link{
+   
+       font-size: 20px;
+       font-family: var(--fuente-montserrat);
+       font-weight: 700;
+       text-decoration: none;
+       
+ }
+
+.pagina{
+    background-color: var(--color-primario);
+    color: var(--color-letra);
+    padding: 0px 140px 84px 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.pagina__informacion{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.pagina__creadores{
+
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+#imagen1{
+
+    width: 1086px;
+    height: 500px;
+
+}
+
+.pagina__Alumno1{
+
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    padding-left: 66px;
+
+}
+
+.pagina__Alumno1__informacion{
+
+    display: flex;
+    gap: 125px;
+    padding-right: 29px;
+    
+
+}
+
+#Daniel{
+
+    width: 303px;
+    height: 396px;
+
+}
+
+.pagina__Alumno2{
+
+display: flex;
+flex-direction: column;
+gap: 31px;
+padding-left: 66px;
+
+}
+
+.pagina__Alumno2__informacion{
+
+display: flex;
+gap: 80px;
+padding-right: 29px;
+align-items: center;
+
+}
+
+#Erick{
+
+width: 410px;
+height: 288px;
+
+}
+
+
+.pagina__Alumno3{
+
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    padding-left: 66px;
+
+}
+
+.pagina__Alumno3__informacion{
+
+    display: flex;
+    gap: 125px;
+    padding-right: 29px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-letra);
+    background-color: var(--color-secundario);
+    width: auto;
+    height: 20px;
+
+}
+
+#letra__footer{
+
+    font-size: 10px;
+    font-weight: 500;
+
+}
